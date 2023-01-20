@@ -1,0 +1,46 @@
+.resident__container {
+  color: #FFFFFF;
+  background-color: #062226;
+  position: relative;
+  max-width: 300px;
+  border: solid .5px #bfde3f;
+  box-shadow: 0px 0px 5px 2px rgba(191, 222, 63, 0.73);
+}
+
+.resident__status--container {
+  position: absolute;
+  background-color: #062226;
+  padding: 2px 1rem 2px .5rem;
+  top: 5%;
+  font-size: small;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: solid .2px black;
+}
+
+.circle {
+  width: 7px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.circle.Alive {
+  background-color: #4AB648;
+}
+
+.circle.Dead {
+  background-color: #B94343;
+}
+
+.circle.unknown {
+  background-color: #938686;
+}
+
+.resident-card_body {
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.resident__type {
+  color: #7E7E7E;
+}

@@ -1,0 +1,83 @@
+.errorMessage {
+  color: var(--text);
+  width: max-content;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  z-index: 200;
+  right: -100%;
+  opacity: 80%;
+  padding: 9.5rem 8rem;
+  background-image: url(../img/RZxP.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: 0.3s ease-in forwards showError;
+}
+
+.errorMessage-text {
+  background-color: rgba(144, 144, 144, 0.6);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: var(--medium-font-size);
+  font-weight: var(--font-semi-bold);
+  text-transform: capitalize;
+}
+
+.errorMessage-text:hover {
+  background-color: rgba(191, 222, 63, 0.73);
+  cursor: pointer;
+}
+
+.errorMessage p {
+  margin: 0;
+}
+
+@keyframes showError {
+
+  0% {
+    right: -100%;
+  }
+
+  50% {
+    right: -50%;
+  }
+
+  100% {
+    right: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .errorMessage {
+    color: var(--text);
+    width: max-content;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 200;
+    right: -100%;
+    opacity: 80%;
+    padding: 8rem 6rem;
+    background-image: url(../img/RZxP.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: 0.3s ease-in forwards showError;
+  }
+
+
+  @keyframes showError {
+    0% {
+      right: -100%;
+    }
+
+    50% {
+      right: -50%;
+    }
+
+    100% {
+      right: 10%;
+    }
+  }
+}

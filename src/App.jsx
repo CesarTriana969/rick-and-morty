@@ -57,18 +57,20 @@ function App() {
       </div>
       <div className='container_searcher'>
         <form className='searcher' onSubmit={handleSubmit}>
-          <input className='searcher_info' autoComplete='off' id='searchValue' value={locationName} type="text" onChange={handleChangeInput} placeholder='search your dimension' />
-          <button className='button_info' type='submit'>Search</button>
-          {
-            showError ? <ErrorMessage /> : ""
-          }
+          <div className='filter__container'>
+            <input className='searcher_info' autoComplete='off' id='searchValue' value={locationName} type="text" onChange={handleChangeInput} placeholder='search your dimension' />
+            <LocationFilter locationName={locationName} getNewLocation={getNewLocation} />
+            {
+              showError ? <ErrorMessage /> : ""
+            }
+          </div>
         </form>
-
-        <LocationFilter locationName={locationName} getNewLocation={getNewLocation} />
         <LocationInfo location={location} />
         <ResidentList location={location} />
       </div>
+
     </div>
+
   )
 }
 

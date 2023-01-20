@@ -1,0 +1,92 @@
+.filter__container {
+  position: relative;
+  display: flex;
+  gap: 5px;
+}
+
+.filter__list {
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  z-index: 100;
+  background-color: hsla(188, 73%, 9%, 0.73);
+  min-width: 250px;
+  width: 30%;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #FFFFFF;
+  font-size: small;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.hidden__list {
+  border: none;
+}
+
+.filter__list>li {
+  border-bottom: solid .2px hsla(22, 0%, 87%, 0.73);
+  padding: .5rem;
+  transition: 0.3s;
+}
+
+.filter__list>li:last-of-type {
+  border: none
+}
+
+.filter__list>li:hover {
+  background-color: var(--bg-list);
+  cursor: pointer;
+}
+
+
+.animation__list {
+  animation: displaying2 1s;
+}
+
+@keyframes displaying2 {
+  0% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: hsla(0, 14%, 22%, 0.73);
+  border: solid 1px black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bfde3f;
+  border-radius: 10px;
+}
+
+.filter__list::-webkit-scrollbar {
+  width: 12px;
+}
+
+.filter__list::-webkit-scrollbar-track {
+  border: none;
+  border-bottom-right-radius: 10px;
+  background: hsla(0, 14%, 22%, 0.73);
+  border-left: solid .5px black;
+  border-bottom: solid .5px black;
+}
+
+.filter__list::-webkit-scrollbar-thumb {
+  background-color: rgba(191, 222, 63, 0.73);
+  border-radius: 10px;
+}
