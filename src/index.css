@@ -169,3 +169,37 @@ img {
 .container_searcher {
   position: relative;
 }
+
+.conta-pages {
+  background-color: #b39f25;
+}
+
+.list-pages {
+  list-style: none;
+  padding: 20px;
+  margin: 2rem 0;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.list-pages li {
+  background-color: #4AB648;
+  color: white;
+  width: 35px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.list-pages li:hover {
+  background-color: #b39f25;
+}
+
+.list-pages li.currentPage {
+  background-color: #b39f25;
+}
