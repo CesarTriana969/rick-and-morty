@@ -58,21 +58,25 @@ Haz un push a tu rama:
 
 Abre un Pull Request y describe tus cambios.
 
-¡Gracias por contribuir!
+## ¡Gracias por contribuir!
 
 <br>
 
 ## Algunas Características de mi App 
 
-▪	Consumo de API: https://rickandmortyapi.com/documentation/#get-a-single-location, se utiliza para obtener la información de una ubicación con id aleatorio.
-▪	Creación de un componente llamado “LocationInfo” que muestra la información acerca de cada ubicación de la siguiente manera: Nombre(“Name”), tipo(“Type”), dimensión a la que pertenece(“Dimension”), la cantidad de residentes(“Population”) y el id de la dimensión(“Id”).
-▪	Creación de un input donde el usuario introducirá el id o el nombre de una ubicación y automáticamente mientras va escribiendo se desplegará una lista de ubicaciones que contengan lo requerido por el usuario y al hacer clic en una de estas ubicaciones es donde se traerá la información.
-▪	Creación de un componente llamado “ResidentCard” que va a recibir la URL del residente por props, la va a consumir y va a mostrar la siguiente información: Nombre(“name”), imagen (“image”), status: alive, dead o unknown (“Status”), lugar de origen (“Origin”), cantidad de episodios donde aparece (“Episodes where appear”) y el tipo de especie (“Species”).
+Consumo de API: https://rickandmortyapi.com/documentation/#get-a-single-location, se utiliza para obtener la información de una ubicación con id aleatorio.
+
+Creación de un componente llamado “LocationInfo” que muestra la información acerca de cada ubicación de la siguiente manera: Nombre(“Name”), tipo(“Type”), dimensión a la que pertenece(“Dimension”), la cantidad de residentes(“Population”) y el id de la dimensión(“Id”).
+
+Creación de un input donde el usuario introducirá el id o el nombre de una ubicación y automáticamente mientras va escribiendo se desplegará una lista de ubicaciones que contengan lo requerido por el usuario y al hacer clic en una de estas ubicaciones es donde se traerá la información.
+
+Creación de un componente llamado “ResidentCard” que va a recibir la URL del residente por props, la va a consumir y va a mostrar la siguiente información: Nombre(“name”), imagen (“image”), status: alive, dead o unknown (“Status”), lugar de origen (“Origin”), cantidad de episodios donde aparece (“Episodes where appear”) y el tipo de especie (“Species”).
 
 <br>
 
 ## ¿Quieres ver mi app despleagada?
-visita [Rick and Morty](https://rick-and-morty-t.netlify.app/)
+Visita <a href="https://rick-and-morty-t.netlify.app/" target="_blank">Rick and Morty</a>.
+
 
 
 
