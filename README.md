@@ -1,4 +1,4 @@
-# My Awesome App
+# Rick and Morty App
 
 ¡Bienvenido a mi aplicación! Esta es una aplicación en donde el usuario puede ver la información sobre las ubicaciones (locations) del universo de “Rick and Morty”. Esta aplicación fue creada con Vite y React.
 
